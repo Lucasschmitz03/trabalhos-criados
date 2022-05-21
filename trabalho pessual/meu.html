@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="meu.css" rel="stylesheet">
+    <title>trabalhino</title>
+</head>
+<body>
+<div>
+    <button onclick="botao()" id="btn-div" class="botaoInicio">Começar</button>
+</div>
+
+<div class="container">
+<div>
+    <p>O que é, o que é?</p>
+    <p>1. Fica cada vez mais molhado quanto mais a gente seca ? </p>
+
+    <label>
+    <p>resposta: </p> <input id="primeira" class="primeira">
+    </label>
+
+    <button onclick="primeira()" class="primeiro">Mandar</button> <br>
+
+    <label class="apagar1" id="apagar1">
+        <p>Ta errado</p>
+    </label>
+
+    <label class="certo1" id="certo1">
+        <p>Acertou</p>
+    </label>
+
+</div>
+<br>
+<div class="apagarSegundo">
+    <p>O que é, o que é?</p>
+    <p>2. Sem sair do seu cantinho, é capaz de viajar ao redor do mundo ? </p>
+
+    <p>resposta: </p><input id="segunda" class="segunda">
+    <br>
+    <button onclick="segunda()" class="segundaBTN">Mandar</button> <br>
+
+    <label class="apagar2" id="apagar2">
+        <p>Ta errado</p>
+    </label>
+
+    <label class="certo2" id="certo2">
+        <p>Acertou</p>
+    </label>
+
+</div>
+</div>
+<br>
+<div class="apagarTerceira">
+    <p>O que é, o que é?</p>
+    <p>3. É feito de água, mas se for colocado dentro da água morrerá ?</p>
+    <label>
+    <p>resposta: </p><input id="terceira" class="terceira">
+    </label>
+    <br>
+    <button onclick="terceira()" class="terceiraBTN">Mandar</button> <br>
+    <label class="apagar3" id="apagar3">
+        <p>Ta errado</p>
+    </label>
+    <label class="certo3" id="certo3">
+        <p>Acertou</p>
+    </label>
+</div>
+<br>
+<div class="apagarQuarta">
+    <p>O que é, o que é?</p>
+    <p>4. É alta quando jovem e baixinha quando fica velha. Além disso, é rápida quando é magra e lenta quando é gorda ?</p>
+    <label id="respostaQuarta">
+    <p>resposta: </p><input id="quarta" class="quarta">
+    </label>
+    <br>
+    <button onclick="quarta()" class="quartaBTN">Mandar</button> <br>
+    <label class="apagar4" id="apagar4">
+        <p>Ta errado</p>
+    </label>
+    <label class="certo4" id="certo4">
+        <p>Acertou</p>
+    </label>
+</div>
+<br>
+<div class="apagarQuinta">
+    <p>O que é, o que é?</p>
+    <p>5. Pode ser atirado do alto de um prédio e ficar super bem. Mas quando é colocado na água morre pouco tempo depois ?</p>
+    <label id="respostaQuinta">
+    <p>resposta: </p><input id="quinta" class="quinta">
+    </label>
+    <br>
+    <button onclick="quinta()" class="quintaBTN">Mandar</button> <br>
+    <label class="apagar5" id="apagar5">
+        <p>Ta errado</p>
+    </label>
+    <label class="certo5" id="certo5">
+        <p>Acertou</p>
+    </label>
+</div>
+<div class="mostrarDepois">
+    <p>completou com sucesso</p>
+    <img src="download.jfif" alt="">
+    <button onclick="novo()">Começar de novo</button>
+</div>
+
+</div>
+
+<script src="meu.js"></script>
+</body>
+</html>
